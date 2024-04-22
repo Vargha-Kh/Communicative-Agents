@@ -14,7 +14,7 @@ import math
 import faiss
 import os
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "Your_API_KEY"
 LLM = ChatOpenAI(model="gpt-4", max_tokens=2500, temperature=0.8)  # Can be any LLM you want.
 
 
